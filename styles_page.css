@@ -1,0 +1,35 @@
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(208, 202, 202);
+}
+
+body  {
+  background-color: rgb(16, 17, 17);
+}
+
+h2{
+  color: rgb(208, 202, 202);
+}
+
+#road_map {
+  height: 300px;
+  width: 500px;
+}
+
+#main {
+  margin-left: 20px;
+}
+
+.skill {
+  font-size: medium;
+}
+
+.sub_ski {
+  font-size: small;
+}
+
+p {
+  font-size: small;
+}

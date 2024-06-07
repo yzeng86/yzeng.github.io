@@ -2,7 +2,6 @@
 'use strict';
 (function() {
 
-
   /**
    * This function initializes game by setting up clickable buttons.
    */

@@ -4,7 +4,7 @@ h1 {
   margin-top: 80px;
 }
 
-#main-content {
+nev {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0.8cm;
@@ -12,9 +12,13 @@ h1 {
 }
 
 body {
-  background-image: url('background-img.jpeg');
+  background-image: url('img/bkg.jpeg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+a {
+  color: rgb(166, 166, 108)
 }
 
 .indi-ski {
