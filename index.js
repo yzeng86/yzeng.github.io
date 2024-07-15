@@ -6,12 +6,12 @@
    * This function initializes game by setting up clickable buttons.
    */
   function init() {
-    let startButton = id('start-btn');
-    let backButton = id('back-btn');
-    let refreButton = id('refresh-btn');
-    startButton.addEventListener('click', startButtonClicked);
-    backButton.addEventListener('click', backButtonClicked);
-    refreButton.addEventListener('click', putCards);
+    let arrowButton = qs('svg');
+    arrow.addEventListener('click', arrowClicked);
+  }
+
+  function arrowClicked(){
+    qs("svg polygon").classList.add("arrow_Clicked");
   }
 
   /**

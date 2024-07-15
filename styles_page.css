@@ -16,6 +16,21 @@ h2 {
   margin-bottom: 5px;
 }
 
+/* Triangle Style */
+svg polygon {
+  fill:antiquewhite;
+}
+
+/*After Arrow Clicked Class*/
+.arrow_Clicked{
+  fill:blue;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+}
+
 #skills {
   margin-top: 35px;
 }
