@@ -2,16 +2,42 @@
 'use strict';
 (function() {
 
+  window.addEventListener('load', init);
   /**
    * This function initializes game by setting up clickable buttons.
    */
   function init() {
-    let arrowButton = qs('svg');
-    arrow.addEventListener('click', arrowClicked);
+    makeArrowsClick();
   }
 
-  function arrowClicked(){
-    qs("svg polygon").classList.add("arrow_Clicked");
+  function makeArrowsClick() {
+    // Tip
+    makeArrowClick("tip");
+    makeArrowClick('improve');
+
+
+  }
+
+  function makeArrowClick(curSkill) {
+    const curArrow = id(curSkill+ "_arrow");
+    const curContent = id(curSkill + "_content");
+    curArrow.addEventListener('click',() => {
+      toggleArrow(curArrow);
+      curContent.classList.toggle('arrow_clicked');
+    })
+  }
+
+
+  function toggleArrow(curArrow){
+    // Toggle Functionality of Arrow
+    let curAtt = curArrow.getAttribute("points");
+    const points1 = "0,0 10,0 5,8.66";
+    const points2 = "0,0 0,10 8.66,5"
+    if(curAtt == points1) {
+      curArrow.setAttribute('points', points2);
+    } else {
+      curArrow.setAttribute('points', points1);
+    }
   }
 
   /**

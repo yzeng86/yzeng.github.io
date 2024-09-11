@@ -16,15 +16,20 @@ h2 {
   margin-bottom: 5px;
 }
 
-/* Triangle Style */
-svg polygon {
+polygon {
   fill:antiquewhite;
 }
 
-/*After Arrow Clicked Class*/
-.arrow_Clicked{
-  fill:blue;
+
+/* Triangle Style */
+.arrow_clicked {
+  /* fill:antiquewhite; */
+  /* fill:navy; */
+  display: none;
 }
+
+/*After Arrow Clicked Class*/
+
 
 svg {
   width: 10px;
