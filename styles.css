@@ -1,0 +1,37 @@
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+nev {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.8cm;
+  justify-content: center;
+}
+
+body {
+  background-image: url('img/bkg.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: rgb(166, 166, 108)
+}
+
+.indi-ski {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  background-color: rgb(200, 238, 225);
+  color: rgb(118, 111, 65);
+}
